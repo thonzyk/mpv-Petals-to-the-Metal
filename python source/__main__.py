@@ -1,6 +1,5 @@
 from functionality.dataset_load import *
 from functionality.models import *
-from functionality.image_augmentation import *
 
 if __name__ == '__main__':
     NUM_TRAINING_IMAGES = count_data_items(TRAINING_FILENAMES)

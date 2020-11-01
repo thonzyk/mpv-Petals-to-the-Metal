@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 """Dataset load functions"""
 
-import math, re, os
+import math
+import re
+
 import numpy as np
 import tensorflow as tf
 from matplotlib import pyplot as plt
-from .image_augmentation import transform
+
 from .constants import IMAGE_SIZE, AUTO, TRAINING_FILENAMES, VALIDATION_FILENAMES, TEST_FILENAMES, CLASSES
+from .image_augmentation import transform
 from .models import BATCH_SIZE
 
 

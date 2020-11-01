@@ -4,12 +4,11 @@
 * inspired by https://www.kaggle.com/cdeotte/rotation-augmentation-gpu-tpu-0-96
 """
 
-import random, re, math
-import numpy as np, pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.metrics import f1_score, precision_score, recall_score, confusion_matrix
-import tensorflow as tf, tensorflow.keras.backend as K
-from sklearn.model_selection import KFold
+import math
+
+import tensorflow as tf
+import tensorflow.keras.backend as K
+
 from .constants import IMAGE_SIZE
 
 

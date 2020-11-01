@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-"""Tutorial notebook modified to script-format"""
+"""Tutorial notebook modified to script-format
+
+original notebook: https://www.kaggle.com/ryanholbrook/create-your-first-submission
+"""
 
 import math, re, os
 import numpy as np
